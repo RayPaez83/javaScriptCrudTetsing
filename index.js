@@ -8,4 +8,4 @@ const PORT = 9000;
 
 app.use(bodyParser.json());
 app.use("/users", router);
-app.listen(PORT, () => console.log("server is running"));
+app.listen(PORT, () => console.log("server is running properly"));
